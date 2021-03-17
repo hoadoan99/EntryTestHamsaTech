@@ -1,0 +1,45 @@
+@font-face {
+    font-family: font_fashion88;
+    src: url('../font/gothamhtf-book-webfont.ttf') format('truetype'), url('../font/gothamhtf-bold-webfont.ttf') format('bold');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-banner: #fefefe;
+    --font-fashion88: 'font_fashion88';
+    --header-height: 798px;
+    --banner-height: 680px;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    font-size: 62.5%;
+    /*1rem-12px */
+    line-height: 1.6rem;
+    box-sizing: border-box;
+    font-family: var(--font-fashion88);
+    width: 100%;
+    height: 100%;
+}
+
+.grid {
+    width: 1250px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
